@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down</title>
+    
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="count">
+        <!-- Outer section start -->
+
+
+        <div class="ex-detail">
+            <h1>ProxnCod Technologies</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta placeat ipsum quia voluptatem sapiente excepturi at iste nam tempora, debitis consectetur voluptate alias a aliquid unde veniam deleniti doloribus non! Quidem repellat quaerat possimus modi, quibusdam molestias adipisci, reiciendis dolore, impedit nesciunt voluptatibus! Recusandae dolorum maiores, consequatur blanditiis nobis voluptates.</p>
+        </div>
+
+        <div class="row">
+            <div class="colom">
+                <div class="counter-box">
+                    <i class="fa-duotone fa-graduation-cap"></i>
+                    <h2 class="counter">215</h2><span>k</span>  
+                    <h4>Student</h4>
+                </div>
+            </div>
+            <div class="colom">
+                <div class="counter-box">
+                    <i class="fa-duotone fa-graduation-cap"></i>
+                    <h2 class="counter">15</h2>
+                    <h4>Empoley</h4>
+                </div>
+            </div>
+            <div class="colom">
+                <div class="counter-box">
+                    <i class="fa-duotone fa-graduation-cap"></i>
+                    <h2 class="counter">420</h2>
+                    <h4>College</h4>
+                </div>
+            </div>
+            <div class="colom">
+                <div class="counter-box">
+                    <i class="fa-duotone fa-graduation-cap"></i>
+                    <h2 class="counter">2023</h2>
+                    <h4>Placement</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Outer section end -->
+    </div>
+
+
+    <!-- For Countdown -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($){
+            $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+        });
+    </script>
+    
+</body>
+</html>
